@@ -1,0 +1,60 @@
+:root {
+  --domus-color: #5abd5a;
+}
+
+.domus-color {
+  background: var(--domus-color);
+}
+
+.domus-btn:hover, .domus-btn, .domus-btn:active {
+  background-color: var(--domus-color) !important;
+  border-color: var(--domus-color) !important;
+}
+
+.domus-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgb(90 189 90 / 38%) !important;
+}
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text-small {
+  font-size: 14px;
+}
+
+.label-checked input[type="radio"]:checked + label {
+  border-bottom: 3px solid var(--domus-color);
+}
+
+.label-checked input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.label-checked input[type="radio"] + label {
+ cursor: pointer;
+}
+
+.form-container {
+  padding: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+.padding-top-75 {
+  padding-top: 75px !important;
+}
+
+.rounded-block {
+  display: block;
+  margin: 0 auto;
+}
+
+.who {
+  text-align: center;
+}

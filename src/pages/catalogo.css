@@ -1,0 +1,25 @@
+.form-group-center.filter {
+  width: 100%;
+}
+
+.form-group-center.filter * {
+  flex-basis: 20%;
+}
+
+.filter-control-box {
+  margin-bottom: 10px;
+}
+
+.card-body.card-body-horizontal {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-image-box > img {
+  height: 288px;
+}
+
+.card-features-box .card-features:not(.first)::before {
+  content: " · ";
+  margin: 0px 4px;
+}

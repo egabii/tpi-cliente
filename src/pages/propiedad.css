@@ -1,0 +1,23 @@
+.feature {
+  width: 70px;
+  text-align: center;
+}
+.feature:not(.first) {
+  padding-left: 15px;
+}
+
+.feature > svg {
+  font-size: 40px;
+}
+
+.feature span {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.features-list {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 10px 0 0;
+}
